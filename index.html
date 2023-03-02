@@ -4,39 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      .important {
-        background-color: aquamarine;
-      }
-      .fa-trash {
-        color: darkred;
-      }
-    </style>
+    <title>THE BLOG</title>
+    <link rel="stylesheet" href="style.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
   <body>
-    <section id="seccionLista">
-      <h1>Lista de la compra <i class="fa fa-trash"></i></h1>
+    <aside id="seccionLista">
+      <h1>Lista de la compra</h1>
       <input type="text" id="input" />
       <button id="guardar">Guardar</button>
       <ul id="lista"></ul>
       <script src="listaCompra.js"></script>
-    </section>
-    <br />
-    <br />
+    </aside>
 
     <section id="seccionBlog">
-      <h1>Blog<i class="fa fa-trash"></i></h1>
+      <h1>Blog</h1>
       <section id="seccionBlogForm">
         <form action="" id="blogForm">
           <fieldset>
             <legend>Crear un nuevo post</legend>
             <label for="titulo">Titulo</label>
             <input type="text" id="titulo" name="titulo" />
+            <br />
             <br />
             <label for="contenido">Contenido</label>
             <textarea

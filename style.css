@@ -1,0 +1,37 @@
+* {
+}
+
+body {
+}
+
+.important {
+  background-color: aquamarine;
+}
+
+.fa-trash {
+  color: darkred;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+#seccionLista {
+  width: 300px;
+  margin: 0px;
+  border: 5px solid black;
+  display: block;
+  float: right;
+  padding: 15px;
+  background-color: rgb(236, 112, 201);
+  justify-content: center;
+}
+
+#seccionBlog {
+  background-color: rgb(115, 193, 235);
+  float: left;
+  margin: 0px;
+  width: 500px;
+  border: 5px solid black;
+  text-align: center;
+}
