@@ -38,7 +38,7 @@ function toggleImportant(element) {
 function deleteParent(element) {
   let parent = element.parentElement;
   let text = parent.innerText;
-  if (confirm("¿deseas borrar este elemento? \n?" + text)) {
+  if (confirm("¿deseas borrar este elemento? \n" + text)) {
     parent.remove();
   }
 }
