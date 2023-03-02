@@ -1,3 +1,5 @@
+//Por qué es getElementById y no setElementById
+//Cómo funciona .innerHTML
 let boton = document.getElementById("guardar");
 boton.addEventListener("click", guardarElemento);
 
@@ -19,7 +21,6 @@ function guardarElemento() {
   document.getElementById("lista").appendChild(li);
   document.getElementById("input").value = "";
 }
-
 function clickImportant(event) {
   console.log(event.target);
   let element = event.target;
