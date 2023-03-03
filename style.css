@@ -12,6 +12,10 @@ body {
   color: darkred;
 }
 
+.fa-pencil {
+  color: green;
+}
+
 h1 {
   font-size: 30px;
 }
