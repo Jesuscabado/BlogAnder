@@ -69,6 +69,10 @@ function updatePost(event){
     cancelEdit(event,titulo,texto);
   })
 
+  /*let iconoOcultar = crearIcono("fa-trash",function(event){
+    cancelEdit(event,titulo,texto);
+  })*/
+
   element.remove();
   inputTitulo.setAttribute("type", "text");
   inputTitulo.value = titulo;
@@ -77,6 +81,7 @@ function updatePost(event){
   parent.appendChild(br);
   parent.appendChild(textArea);
   parent.appendChild(iconoCancelar);
+  //parent.appendChild(iconoOcultar); no funciona
   
   let titulo1 = parent.getElementsByTagName("h3")[0];
   titulo1.remove();

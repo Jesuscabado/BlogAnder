@@ -53,3 +53,12 @@ function alreadyExist(text) {
   }
   return false;
 }
+
+function ValidarTexto() {
+  const input = document.getElementById("titulo").value;
+  if (input === "") {
+    alert("debes postear algo primero");
+    return false;
+  }
+  return true;
+}
